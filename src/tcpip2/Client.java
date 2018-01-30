@@ -22,7 +22,7 @@ public class Client {
 			//send data
 			 outs = socket.getOutputStream();
 			 ousw = new OutputStreamWriter(outs);
-			ousw.write("그럼 148은 누규??? 많이 당황스럽게 ");
+			ousw.write("그래 ");
 			System.out.println("send completed");
 			
 		} catch (UnknownHostException e) {
